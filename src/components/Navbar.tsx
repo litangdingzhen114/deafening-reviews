@@ -12,7 +12,7 @@ export default function Navbar() {
 
   // 👇👇👇 这里设置了 mailto 链接 👇👇👇
   // 点击后会自动唤起邮件客户端，收件人已填好
-  const BUSINESS_LINK = "mailto:3467086016@qq.com";
+  const BUSINESS_LINK = "https://user.qzone.qq.com/3467086016";
 
   const navLinks = [
     { name: "首页", href: "/" },
