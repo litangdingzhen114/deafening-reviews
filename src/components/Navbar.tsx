@@ -13,7 +13,7 @@ export default function Navbar() {
   const navLinks = [
     { name: '首页', href: '/' },
     { name: '影评库', href: '/archive' }, // 修改点：改为“影评库”
-    { name: '关于', href: '#' },
+    { name: '关于电影', href: '#' },
   ];
 
   return (
@@ -42,7 +42,7 @@ export default function Navbar() {
               </Link>
             ))}
             <button className="bg-signal text-void px-4 py-1 font-bold text-sm hover:bg-blood hover:text-white transition-colors">
-              加入社团
+              社团宣传
             </button>
           </div>
 
