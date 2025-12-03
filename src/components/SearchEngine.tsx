@@ -31,7 +31,7 @@ export default function SearchEngine({ initialReviews }: SearchEngineProps) {
         <Search className="absolute left-4 top-1/2 -translate-y-1/2 text-neutral-700 w-6 h-6" />
         
         <div className="absolute -bottom-8 right-0 font-mono text-xs text-concrete">
-          已加载 {filteredReviews.length} 条档案
+          已加载 {filteredReviews.length} 篇影评
         </div>
       </div>
 
@@ -39,7 +39,7 @@ export default function SearchEngine({ initialReviews }: SearchEngineProps) {
         <ReviewGrid reviews={filteredReviews} />
       ) : (
         <div className="text-center py-20 border border-dashed border-neutral-800">
-          <p className="text-concrete font-mono">虚空中未发现相关记录。</p>
+          <p className="text-concrete font-mono">库中未发现相关记录。</p>
         </div>
       )}
     </div>

@@ -58,7 +58,7 @@ export default function AboutPage() {
         </motion.div>
         
         {/* 背景装饰：模拟声波纹理 */}
-        <div className="absolute inset-0 z-0 opacity-20 bg-[radial-gradient(circle_at_center,_var(--tw-gradient-stops))] from-neutral-800 via-void to-void" />
+        <div className="absolute inset-0 z-0 opacity-20 'bg-[radial-gradient(circle_at_center,_var(--tw-gradient-stops))] from-neutral-800 via-void to-void" />
         <motion.div 
           animate={{ opacity: [0.2, 0.5, 0.2] }}
           transition={{ duration: 4, repeat: Infinity }}
@@ -86,7 +86,7 @@ export default function AboutPage() {
           
           <div className="relative h-[400px] w-full bg-neutral-900 border border-neutral-800 overflow-hidden group">
             {/* 模拟电影剧照的抽象色块 */}
-            <div className="absolute inset-0 bg-gradient-to-br from-neutral-800 to-black opacity-80 group-hover:opacity-60 transition-opacity duration-500"></div>
+            <div className="absolute inset-0 bg-linear-to-br from-neutral-800 to-black opacity-80 group-hover:opacity-60 transition-opacity duration-500"></div>
             <div className="absolute inset-0 flex items-center justify-center">
                <span className="text-neutral-600 font-mono text-sm border border-neutral-600 px-4 py-1">剧照：李淇在法庭的沉默时刻</span>
             </div>
@@ -171,7 +171,7 @@ export default function AboutPage() {
             transition={{ duration: 0.8 }}
           >
             <p className="text-2xl md:text-4xl font-black mb-8">
-              &quot我每天都在说话，<br/>但没有人听得见。&quot
+               我每天都在说话，<br/>但没有人听得见。
             </p>
             <div className="w-24 h-2 bg-void mx-auto mb-8"></div>
             <p className="font-mono text-sm tracking-widest uppercase">

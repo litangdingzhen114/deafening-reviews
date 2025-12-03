@@ -28,7 +28,7 @@ export default function Home() {
             </p>
 
             <div className="inline-block bg-blood text-white px-6 py-2 font-bold transform -rotate-2">
-              正在热映 / 2025
+                 影评社 / 主题网站
             </div>
           </div>
         </section>
