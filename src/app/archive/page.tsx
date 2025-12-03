@@ -13,7 +13,7 @@ export default function ArchivePage() {
             影评 <span className="text-transparent text-stroke">库</span> {/* 修改点：改为“影评库” */}
           </h1>
           <p className="font-mono text-concrete">
-            正在解密评论数据...
+            正在加载影评文章...
           </p>
         </div>
 

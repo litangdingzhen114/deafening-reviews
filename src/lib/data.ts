@@ -135,7 +135,7 @@ const ARCHIVE_REVIEWS_DATA: Review[] = [
   {
     id: "rev-11",
     title: "人性的灰色地带",
-    author: "工艺美术252班 张博",
+    author: "工美252班 张博",
     rating: getRandomRating(),
     tags: ["人性", "社会分类", "尊重"],
     excerpt: "这世上更多的是游走于黑白之间的人--他们用自己的方式生存，在好坏交织的模糊地带，努力活出自己的样子。",
@@ -223,7 +223,7 @@ const ARCHIVE_REVIEWS_DATA: Review[] = [
   {
     id: "rev-19",
     title: "无声视角叩击人心",
-    author: "面点工艺243班 叶怡心",
+    author: "面点243班 叶怡心",
     rating: getRandomRating(),
     tags: ["无声", "尊重", "共情"],
     excerpt: "影片打破了我对聋人群体的偏见，他们不是“沉默的边缘人”，而是用独特方式拥抱世界的追光者。",
@@ -300,7 +300,7 @@ const ARCHIVE_REVIEWS_DATA: Review[] = [
   {
     id: "rev-26",
     title: "于无声处筑桥梁",
-    author: "特殊教育251班 陈利",
+    author: "特教251班 陈利",
     rating: getRandomRating(),
     tags: ["特教", "桥梁", "使命"],
     excerpt: "听人的世界是5G，聋人的世界是2G。特殊教育的意义不仅是知识传授，更是打破信息壁垒。",
