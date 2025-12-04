@@ -168,7 +168,7 @@ const ARCHIVE_REVIEWS_DATA: Review[] = [
   {
     id: "rev-13",
     title: "当呐喊被看见，正义被听见",
-    author: "数媒253班 蔡怡然",
+    author: "特教252班 蔡怡然",
     rating: getRandomRating(),
     tags: ["发声", "CODA", "社会系统"],
     excerpt:
