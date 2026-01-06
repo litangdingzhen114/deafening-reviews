@@ -98,6 +98,30 @@ export default function ReviewReader({ review }: ReviewReaderProps) {
           ))}
         </article>
 
+        {/* 彩蛋链接: 只有当 review.downloadUrl 存在时才显示 */}
+        {review.downloadUrl && (
+          <div className="mt-12 mb-8 flex flex-col items-center">
+            <div className={`p-1 rounded-xl bg-gradient-to-r from-signal via-blood to-signal animate-shimmer bg-[length:200%_auto] shadow-lg ${
+              isDayMode ? 'shadow-blood/20' : 'shadow-signal/20'
+            }`}>
+              <a 
+                href={review.downloadUrl}
+                download
+                className={`block px-8 py-4 rounded-lg font-black text-2xl md:text-4xl transition-all active:scale-95 ${
+                  isDayMode ? 'bg-white text-ink hover:bg-neutral-50' : 'bg-void text-paper hover:bg-void-light'
+                }`}
+              >
+                🪄 神奇妙妙工具
+              </a>
+            </div>
+            <p className={`mt-4 text-xs font-mono uppercase tracking-widest opacity-50 ${
+              isDayMode ? 'text-neutral-500' : 'text-concrete'
+            }`}>
+              [ 发现隐藏彩蛋 ]
+            </p>
+          </div>
+        )}
+
         {/* 底部导航 */}
         <div className={`mt-16 pt-8 border-t flex justify-between transition-colors ${
           isDayMode ? 'border-neutral-300' : 'border-neutral-800'
